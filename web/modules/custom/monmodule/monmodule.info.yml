@@ -1,0 +1,5 @@
+name: 'monmodule'
+type: module
+description: 'Description mon moule'
+core: 8.x
+package: 'Custom'

@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains monmodule.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function monmodule_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the monmodule module.
+    case 'help.page.monmodule':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Description mon moule') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function monmodule_theme() {
+  return [
+    'monmodule' => [
+      'render element' => 'children',
+    ],
+  ];
+}

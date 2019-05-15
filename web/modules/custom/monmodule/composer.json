@@ -1,0 +1,14 @@
+{
+  "name": "drupal/monmodule",
+  "type": "drupal-module",
+  "description": "Description mon moule",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/monmodule",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/monmodule",
+    "source": "http://cgit.drupalcode.org/monmodule"
+  },
+  "require": { }
+}

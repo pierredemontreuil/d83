@@ -1,7 +1,7 @@
 uuid: bfd86b73-be0c-49d2-abcf-badb95400c92
-name: Drupal8.3
+name: 'Drupal local-dev'
 mail: pierre.reitlinger@gmail.com
-slogan: ''
+slogan: 'Formation déploiement'
 page:
   403: ''
   404: ''

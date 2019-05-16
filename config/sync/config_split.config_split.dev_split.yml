@@ -1,0 +1,21 @@
+uuid: 3276e6d4-f93c-471e-abfa-14f3c93c56f0
+langcode: en
+status: true
+dependencies: {  }
+id: dev_split
+label: dev_split
+description: ''
+folder: ../config/dev_split
+module:
+  devel: 0
+  field_ui: 0
+  kint: 0
+  menu_ui: 0
+  views_ui: 0
+  webprofiler: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

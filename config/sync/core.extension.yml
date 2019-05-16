@@ -18,21 +18,17 @@ module:
   ctools: 0
   datetime: 0
   dblog: 0
-  devel: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
-  field_ui: 0
   file: 0
   filter: 0
   hacked: 0
   help: 0
   history: 0
   image: 0
-  kint: 0
   layout_discovery: 0
   link: 0
-  menu_ui: 0
   module_filter: 0
   monmodule: 0
   node: 0
@@ -51,9 +47,7 @@ module:
   tour: 0
   update: 0
   user: 0
-  views_ui: 0
   webform: 0
-  webprofiler: 0
   menu_link_content: 1
   views: 10
   standard: 1000

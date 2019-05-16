@@ -1,0 +1,6 @@
+services:
+  monmodule.default:
+    class: Drupal\monmodule\EventSubscriber\monmoduleSubscriber
+    arguments: []
+    tags:
+      - { name: event_subscriber }
